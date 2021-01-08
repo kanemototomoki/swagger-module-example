@@ -1,0 +1,1 @@
+# swagger-module-example
