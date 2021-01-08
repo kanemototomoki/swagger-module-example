@@ -1,0 +1,13 @@
+{
+  "get": {
+    "summary": "text",
+    "tags": [
+      "foo"
+    ],
+    "responses": {
+      "200": {
+        "description": "OK"
+      }
+    }
+  }
+}

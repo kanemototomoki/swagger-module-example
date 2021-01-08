@@ -1,0 +1,15 @@
+{
+  "name": "swagger-module-example",
+  "version": "1.0.0",
+  "scripts": {
+    "build:swagger": "swagger-cli bundle ./docs/_index.json > ./docs/swagger.json",
+    "watch:swagger": "chokidar './docs/paths' -c 'npm run build:swagger'"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "chokidar": "^3.5.0",
+    "chokidar-cli": "^2.1.0",
+    "swagger": "^0.7.5",
+    "swagger-cli": "^4.0.4"
+  }
+}
